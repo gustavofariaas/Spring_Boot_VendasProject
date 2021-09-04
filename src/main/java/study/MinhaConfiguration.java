@@ -5,8 +5,14 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
+/* Sem utilizar Annotation
 @Configuration
 @Profile("development")
+*/
+
+//Utilizando Annotation
+
+@Development
 public class MinhaConfiguration {
 
     /* Esta configuracao Bean vai ser substituida pelo Application.properties

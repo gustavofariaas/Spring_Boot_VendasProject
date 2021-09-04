@@ -17,7 +17,7 @@ public class VendasApplication {
     @Qualifier("applicationName")
     private String applicationNome;*/
 
-//    Utilizando o application.properties
+    //    Utilizando o application.properties
     @Value("${application.name}")
     private String applicationNome;
 
